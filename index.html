@@ -4,51 +4,51 @@
  <title>Bootstrap 101 Template</title>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
+ <link rel="stylesheet" href="style.css">
  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
  
  </head>
  <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <a href="#">
-                <img src="http://placehold.it/300x60?text=LOGO" width="150" alt="" style="font-size: 20px">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+    <div class="main-wrapper py-5 px-5 m-0">
+        <main class="row w-100 h-100 no-gutters">
+            <aside class="col-2 rounded-left rounded-bottom sidebar p-5">
+                <a href="#">
+                    <img src="./assets/logo512.png" width="100" alt="" style="font-size: 20px" class="w-100 centered">
+                </a>
+                <menu class="menu text-center list-unstyled">
+                    <li class="menu__item h4"><a href="https://www.google.com/">google</a></li>
+                    <li class="menu__item h4"><a href="https://www.yandex.ru">yandex</a></li>
+                </menu>
+            </aside>
+    
+            <div class="col-10 content">
+                <header class="p-4 rounded-right header">
+                    <h1 class="header__title">Header heading</h1>
+                    <p class="header__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores distinctio laudantium cum illum sunt quos vitae autem expedita iure, non optio suscipit velit, praesentium, ex ullam temporibus et mollitia fuga.</p>
+                </header>
+        
+                <div class="align-items-around h-75 w-100 pt-5 px-4 m-0">
+                    <div class="row h-25 mt-5 justify-content-around">
+                        <div class="col-2 rounded grid__item"></div>
+                        <div class="col-2 rounded grid__item"></div>
+                        <div class="col-2 rounded grid__item"></div>
+                        <div class="col-2 rounded grid__item"></div>
+                    </div>
+                    <div class="row h-25 mt-5 justify-content-around">
+                        <div class="col-2 rounded grid__item"></div>
+                        <div class="col-2 rounded grid__item"></div>
+                        <div class="col-2 rounded grid__item"></div>
+                        <div class="col-2 rounded grid__item"></div>
+                    </div>
+                    <div class="row h-25 mt-5 justify-content-around">
+                        <div class="col-2 rounded grid__item"></div>
+                        <div class="col-2 rounded grid__item"></div>
+                        <div class="col-2 rounded grid__item"></div>
+                        <div class="col-2 rounded grid__item"></div>
+                    </div>
+                </div>
             </div>
-        </nav>
-    </div>
-
-    <div class="container" style="margin-top: 60px;">
-        <div class="row">
-          <div class="col-sm">
-            Одна из трёх колонок
-          </div>
-          <div class="col-sm">
-            Одна из трёх колонок
-          </div>
-          <div class="col-sm">
-            Одна из трёх колонок
-          </div>
-        </div>
+        </main>
     </div>
 
     <script src="https://code.jquery.com/jquery.js"></script>
